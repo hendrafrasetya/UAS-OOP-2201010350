@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 28, 2023 at 06:59 AM
+-- Generation Time: Jun 30, 2024 at 04:16 AM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -37,7 +37,7 @@ CREATE TABLE `login` (
 --
 
 INSERT INTO `login` (`Username`, `Password`) VALUES
-('rada', 'rada');
+('hendra', 'hendra1717');
 
 -- --------------------------------------------------------
 
@@ -60,7 +60,8 @@ CREATE TABLE `pelanggan` (
 --
 
 INSERT INTO `pelanggan` (`id_pelanggan`, `nama`, `no_hp`, `tgl_terima`, `tgl_pengembalian`, `pilihan`, `layanan`) VALUES
-(1, 'bintang', '087654321', '21 maret 2006', '21 maret 2006', 'Kiloan', 'cuci kering');
+(1, 'bintang', '087654321', '21 maret 2006', '21 maret 2006', 'Kiloan', 'cuci kering'),
+(2, 'hendra', '0887345623', '23', '30', 'Satuan', 'cuci kering lipat');
 
 --
 -- Indexes for dumped tables
